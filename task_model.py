@@ -13,3 +13,6 @@ class TaskModel:
 
     def is_completed(self):
         return self.is_completed
+
+    def mark_as_complete(self):
+        self.is_completed = True
