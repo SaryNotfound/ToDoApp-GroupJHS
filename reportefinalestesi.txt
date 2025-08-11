@@ -1,0 +1,64 @@
+1. Las tareas asignadas para el estudiante #2 fueron realizadas por Sara Sierra que fueron Añadir funcionalidad para eliminar tareas en task_model.py y actualizar
+README.md. 
+Creé el repositorio llamado "ToDoApp-GroupJHS"
+
+Usé los comandos "git clone" para clonar el repositorio y empezar a trabajar. 
+-Sara creó la rama "sara" y actualizó el README.md y añadió la funcionalidad de   eliminar las tareas en el archivo task_model.py
+
+	-git add task_model.py README.md: Para preparar los dos archivos que modifiqué y decirle a Git que quería guardarlos.
+
+	-git commit -m "Añadir funcionalidad para eliminar tareas y actualizar README": Para guardar los cambios de forma permanente en mi historial local con un mensaje que describe el trabajo hecho.
+
+	-git push origin sara: Para subir todos mis cambios guardados desde mi computadora a la rama "sara" en GitHub.
+
+2. Las tareas asignadas para el estudiante #1 fueron realizadas por Harlem Hernandez que fueron simular un conflicto en task_model.py 
+
+	- Harlem creo la rama "RamaHarlem" y añadi set_done y remove_task en TaskModel, y se agrego los nuevos metodos de TaskModel en main.py
+
+	- git add task_model.py main.py para pasar los archivos al modo preparacion
+
+	- git commit "Añadir set_done y remove_task en TaskModel": Esto para guardar los cambios en un repositorio local con un mensaje que muestra que fue lo que se realizo.
+
+	- git push origin RamaHarlem: Para subir todos los cambios al repositorio remoto pero en la RamaHarlem.
+
+
+3. Las tareas asignadas para el estudiante #3 fueron realizadas por Juan de Hoyos, que consistieron en integrar las ramas, resolver conflictos y limpiar el repositorio.
+
+Primero, se creó una rama llamada "group1" que serviría como base para la integración de todas las funcionalidades.
+
+- Se fusionó la rama "juan2" (que contenía los cambios iniciales de Juan) en la rama "group1".
+
+Se intentó fusionar la rama "RamaHarlem" en "group1". Durante este proceso, surgieron conflictos, ya que varios miembros del equipo habían modificado las mismas partes del archivo task_model.py.
+
+Los conflictos fueron analizados y resueltos manualmente para asegurar que las funcionalidades de todos los miembros del equipo coexistieran correctamente. Una vez resueltos, se completó la fusión de "RamaHarlem" en "group1".
+
+	- git commit -m "Merge de ramas y resolución de conflictos": Se realizó un commit para guardar la versión fusionada y resuelta en la rama "group1".
+
+	- git push origin group1: Se subió la rama "group1" con todos los cambios integrados al repositorio remoto en GitHub.
+
+	- Se creó un Pull Request (PR) en GitHub para fusionar la rama "group1" en la rama principal "main".
+
+Después de revisar que la integración era correcta, se aceptó el Pull Request, incorporando todo el trabajo del equipo en la rama "main".
+
+	- git push origin --delete RamaHarlem juan2 Sara group1: Para finalizar, se eliminaron todas las ramas de trabajo ("RamaHarlem", "juan2", "Sara", "group1") del repositorio remoto, ya que se habían vuelto obsoletas después de la 	fusión. Se dejó únicamente la rama "main" como la versión final y estable del proyecto.
+
+
+
+REFLEXIÓN 
+Organización: Para no estorbarnos, primero hablamos sobre qué haría cada uno y luego trabajamos en copias separadas del proyecto.
+
+Conflictos de código: Aprendimos que si dos personas editan la misma parte, lo mejor es conversar para unir las dos ideas en una sola solución que funcione para todo
+
+Revisión en equipo: Descubrimos que es muy útil proponer los cambios al grupo antes de hacerlos definitivos. Así, todos pueden revisarlos, opinar y asegurar que no haya errores, protegiendo la versión principal del proyecto
+
+Mejoras a futuro: Vimos que existen herramientas que podrían probar nuestro código automáticamente cada vez que hacemos un cambio, lo que nos ayudaría a encontrar fallos mucho más rápido
+
+
+
+Durante la fase de integración, se nos olividó incluir el archivo report.txt en la rama group1. Para corregir este olvido de manera ordenada, se creó una nueva rama dedicada a añadir el archivo faltante. Despues, se generó un Pull Request desde esta nueva rama hacia main para incorporar el reporte a la versión final del proyecto.
+
+
+
+
+
+
